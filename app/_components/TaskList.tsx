@@ -10,42 +10,42 @@ function TaskList() {
                 <div className="flex-1 overflow-auto">
                     <div className="form-control">
                         <label className="label cursor-pointer justify-start">
-                            <input type="checkbox" checked={true} className="checkbox checkbox-primary" />
+                            <input type="checkbox" defaultChecked={true} className="checkbox checkbox-primary" />
                             <span className="label-text ms-4">Some Task</span>
                         </label>
                     </div>
 
                     <div className="form-control">
                         <label className="label cursor-pointer justify-start">
-                            <input type="checkbox" checked={true} className="checkbox checkbox-primary" />
+                            <input type="checkbox" defaultChecked={true} className="checkbox checkbox-primary" />
                             <span className="label-text ms-4">Some Task</span>
                         </label>
                     </div>
 
                     <div className="form-control">
                         <label className="label cursor-pointer justify-start">
-                            <input type="checkbox" checked={true} className="checkbox checkbox-primary" />
+                            <input type="checkbox" defaultChecked={true} className="checkbox checkbox-primary" />
                             <span className="label-text ms-4">Some Task</span>
                         </label>
                     </div>
 
                     <div className="form-control">
                         <label className="label cursor-pointer justify-start">
-                            <input type="checkbox" checked={true} className="checkbox checkbox-primary" />
+                            <input type="checkbox" defaultChecked={true} className="checkbox checkbox-primary" />
                             <span className="label-text ms-4">Some Task</span>
                         </label>
                     </div>
 
                     <div className="form-control">
                         <label className="label cursor-pointer justify-start">
-                            <input type="checkbox" checked={true} className="checkbox checkbox-primary" />
+                            <input type="checkbox" defaultChecked={true} className="checkbox checkbox-primary" />
                             <span className="label-text ms-4">Some Task</span>
                         </label>
                     </div>
 
                     <div className="form-control">
                         <label className="label cursor-pointer justify-start">
-                            <input type="checkbox" checked={true} className="checkbox checkbox-primary" />
+                            <input type="checkbox" defaultChecked={true} className="checkbox checkbox-primary" />
                             <span className="label-text ms-4">Some Task</span>
                         </label>
                     </div>
