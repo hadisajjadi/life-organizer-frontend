@@ -1,5 +1,6 @@
 import Card from "./_components/Card";
 import CardTitle from "./_components/CardTitle";
+import DayView from "./_components/DayView";
 import HabitTracker from "./_components/HabitTracker";
 import MoodTracker from "./_components/MoodTracker";
 import TaskList from "./_components/TaskList";
@@ -17,6 +18,9 @@ export default function Home() {
           </div>
           <div className="col-span-2 row-span-3">
             <HabitTracker />
+          </div>
+          <div className="col-span-4 row-span-full">
+            <DayView />
           </div>
         </div>
 
