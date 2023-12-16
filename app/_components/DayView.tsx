@@ -7,13 +7,13 @@ function DayView() {
         <Card>
             <div className="w-full h-full flex flex-col">
                 <CardTitle text="Day View" />
-                <div className="flex-1 overflow-auto">
-                    <div className="flex flex-col h-full">
+                <div className="pt-4 flex-1 overflow-auto scrollbar-thin scrollbar-thumb-primary scrollbar-track-transparent">
+                    <div className="h-full">
                         {
                             [...Array(24)].map((_, i) => (
                                 <div
                                     key={i}
-                                    className="flex-grow border-b border-neutral-content border-opacity-10"
+                                    className="h-12 border-b border-neutral-content border-opacity-10 border-dashed"
                                 >
                                     <span className="text-content text-opacity-40 text-sm">
                                         {`${i + 1}:00`}
