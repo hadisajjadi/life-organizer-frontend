@@ -13,9 +13,9 @@ function DayView() {
                             [...Array(24)].map((_, i) => (
                                 <div
                                     key={i}
-                                    className="h-12 border-b border-neutral-content border-opacity-10 border-dashed"
+                                    className="h-12 border-t border-neutral-content border-opacity-10 border-dashed relative"
                                 >
-                                    <span className="text-content text-opacity-40 text-sm">
+                                    <span className="text-content text-opacity-40 text-sm absolute top-0 left-0 -translate-y-1/2">
                                         {`${i + 1}:00`}
                                     </span>
                                 </div>

@@ -19,7 +19,7 @@ export default function Home() {
           <div className="col-span-2 row-span-3">
             <HabitTracker />
           </div>
-          <div className="col-span-4 row-span-full">
+          <div className="col-span-4 col-start-9 row-span-full">
             <DayView />
           </div>
         </div>
