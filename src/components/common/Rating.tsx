@@ -1,11 +1,17 @@
 import { useState } from 'react';
 
-function Rating() {
+interface RatingProps {
+    indexes: number[];
+    onRatingChange: (newRating: number) => void;
+}
+
+function Rating({ indexes, onRatingChange }: RatingProps) {
     const [rating, setRating] = useState(0);
     const [hoverRating, setHoverRating] = useState(0);
 
     const handleRatingChange = (newRating: number) => {
         setRating(newRating);
+        onRatingChange(newRating);
     };
 
     const handleMouseEnter = (star: number) => {
@@ -18,7 +24,7 @@ function Rating() {
 
     return (
         <div className="w-full h-full flex items-center justify-center">
-            {[1, 2, 3, 4, 5].map((star) => (
+            {indexes.map((star) => (
                 <svg
                     key={star}
                     xmlns="http://www.w3.org/2000/svg"

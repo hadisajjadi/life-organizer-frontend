@@ -1,7 +1,12 @@
-import React from 'react'
 import Card from './Card'
 import CardTitle from './CardTitle'
 import Rating from './common/Rating'
+
+
+function onRatingChanged(newRating: number) {
+    console.log(newRating)
+}
+
 
 function MoodTracker() {
     return (
@@ -9,7 +14,7 @@ function MoodTracker() {
             <div className="flex flex-col w-full h-full">
                 <CardTitle text="Mood" />
                 
-                <Rating />
+                <Rating indexes={[1, 2, 3, 4, 5]} onRatingChange={onRatingChanged} />
                 
             </div>
         </Card>
