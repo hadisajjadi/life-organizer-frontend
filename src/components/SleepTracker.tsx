@@ -1,19 +1,18 @@
-import React from 'react'
 import Card from './Card'
 import CardTitle from './CardTitle'
-import Rating from './common/Rating'
+import RateSleep from './common/RateSleep'
 
-function MoodTracker() {
+function SleepTracker() {
     return (
         <Card>
             <div className="flex flex-col w-full h-full">
-                <CardTitle text="Mood" />
+                <CardTitle text="Sleep" />
                 
-                <Rating />
+                <RateSleep />
                 
             </div>
         </Card>
     )
 }
 
-export default MoodTracker
+export default SleepTracker
