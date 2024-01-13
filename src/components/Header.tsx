@@ -1,4 +1,3 @@
-import React from 'react'
 
 function Header() {
     return (
@@ -23,7 +22,7 @@ function Header() {
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a>Today</a></li>
+                    <li><a></a></li>
                     <li>
                         <details>
                             <summary>

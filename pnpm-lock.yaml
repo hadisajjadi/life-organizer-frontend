@@ -14,6 +14,9 @@ dependencies:
   react-icons:
     specifier: ^4.12.0
     version: 4.12.0(react@18.2.0)
+  react-multi-date-picker:
+    specifier: ^4.4.1
+    version: 4.4.1(react-dom@18.2.0)(react@18.2.0)
   react-router-dom:
     specifier: ^6.21.1
     version: 6.21.1(react-dom@18.2.0)(react@18.2.0)
@@ -1839,6 +1842,10 @@ packages:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: true
 
+  /react-date-object@2.1.8:
+    resolution: {integrity: sha512-94zg/9r29v/VsKsJT0E5+tPg85IyMirkU/B7qBWlhT7RDSuf9x5dczfbQOsj9TbzSVUK/Vx/ZDboOBy9hA381w==}
+    dev: false
+
   /react-dom@18.2.0(react@18.2.0):
     resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
     peerDependencies:
@@ -1849,12 +1856,34 @@ packages:
       scheduler: 0.23.0
     dev: false
 
+  /react-element-popper@2.1.6(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-8va7mUmrKIkUnaM2t5Dyctd8cjgVgVcrv5vVD0FRay0sN6EPBCKa0bDi1/KmVDAjfgSIn7zQnjtc4VojcGrkgQ==}
+    peerDependencies:
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
   /react-icons@4.12.0(react@18.2.0):
     resolution: {integrity: sha512-IBaDuHiShdZqmfc/TwHu6+d6k2ltNCf3AszxNmjJc1KUfXdEeRJOKyNvLmAHaarhzGmTSVygNdyu8/opXv2gaw==}
     peerDependencies:
       react: '*'
     dependencies:
       react: 18.2.0
+    dev: false
+
+  /react-multi-date-picker@4.4.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-z0utCiMYijt2w3UoVJkYgsReE9l1k6DkiL13Vr2RKHnBnorKK0IYq7xpfkuMimvt7sLumFr5wTKsWumCgSkXkA==}
+    peerDependencies:
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+    dependencies:
+      react: 18.2.0
+      react-date-object: 2.1.8
+      react-dom: 18.2.0(react@18.2.0)
+      react-element-popper: 2.1.6(react-dom@18.2.0)(react@18.2.0)
     dev: false
 
   /react-router-dom@6.21.1(react-dom@18.2.0)(react@18.2.0):
