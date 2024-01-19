@@ -11,26 +11,28 @@ const Day = () => {
     <div>
       <div className="w-full h-[90vh] pt-6">
         <div className="grid grid-cols-12 grid-rows-12 gap-6 w-full h-full">
-          <div className="col-span-3 row-span-full">
+          <div className="col-span-3 row-span-10">
             <TaskList />
           </div>
-          <div className="col-span-3 row-span-3">
-            <MoodTracker />
-          </div>
-          <div className="col-span-3 row-span-3">
-            <SleepTracker />
-          </div>
-          <div className="col-span-3 row-span-5">
+
+          <div className="col-span-3 row-span-7">
             <HabitTracker />
           </div>
           <div className="col-span-3 row-span-4">
             <MealTracker />
           </div>
-          <div className="col-span-3 row-span-5">
+          <div className="col-span-6 row-span-6 col-start-4 row-start-8">
             <Note />
           </div>
-          <div className="col-span-3 col-start-10 row-span-full">
+          <div className="col-span-3 col-start-10 row-span-10 row-start-1">
             <DayView />
+          </div>
+          <div className="col-span-3 row-span-3 col-start-1">
+            <MoodTracker />
+          </div>
+
+          <div className="col-span-3 row-span-3 col-start-10">
+            <SleepTracker />
           </div>
         </div>
 

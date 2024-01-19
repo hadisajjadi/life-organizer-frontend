@@ -13,7 +13,6 @@ function MoodTracker() {
         <Card>
             <div className="flex flex-col w-full h-full">
                 <CardTitle text="Mood" />
-                
                 <Rating indexes={[1, 2, 3, 4, 5]} onRatingChange={onRatingChanged} />
                 
             </div>

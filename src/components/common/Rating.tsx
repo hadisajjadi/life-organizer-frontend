@@ -28,7 +28,7 @@ function Rating({ indexes, onRatingChange }: RatingProps) {
                 <svg
                     key={star}
                     xmlns="http://www.w3.org/2000/svg"
-                    className={`max-w-10 max-h-10 ${star <= (hoverRating || rating) ? 'text-yellow-500' : 'text-neutral-content'}`}
+                    className={`max-w-8 max-h-8 ${star <= (hoverRating || rating) ? 'text-yellow-500' : 'text-neutral-content'}`}
                     fill="currentColor"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
